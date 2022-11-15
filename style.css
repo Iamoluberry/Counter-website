@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column wrap;
+
+    background-image: linear-gradient(to bottom right, rgb(164, 198, 226), rgb(154, 22, 206))
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+   
+}
+
+#myLabel{
+    font-size: 46px;
+}
+
+#mydiv{
+    margin-top: 20px;
+}
+
+#mydiv button{
+    height: 30px;
+    padding: 0px 5px;
+    color: white;
+    background-color: steelblue;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+
